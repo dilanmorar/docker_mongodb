@@ -1,3 +1,5 @@
+FROM ubuntu:18.04
+
 # gives you a key which gives you access to the repository
 RUN wget -qO - https://www.mongodb.org/static/pgp/server-3.2.asc | sudo apt-key add -
 
@@ -14,6 +16,9 @@ RUN rm /etc/mongod.conf
 
 # linking the connection between the file, crating synced file between mongod.conf and /etc/mongod.conf
 RUN sudo ln -s /home/ubuntu/environment/mongod.conf /etc/mongod.conf
+
+# specify ports
+EXPOSE 27017
 
 # restarting so the new configuration is in place
 RUN sudo systemctl restart mongod
