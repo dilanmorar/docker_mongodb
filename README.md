@@ -38,7 +38,7 @@ Docker Hub is a cloud-based repository in which you can create, test, store and 
 
 The first thing you need to do is to create a Docker Hub account, and then create a repository and give it a name.
 
-Once the container is running (the 'How to run API') you can push the image to the repository you created.
+Once the container is running, you can push the image to the repository you created.
 
 Then need to commit the project:
 
