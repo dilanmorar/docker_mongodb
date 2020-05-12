@@ -10,13 +10,13 @@ docker build . -t mongodb
 ```
 to run image:
 ```
-docker run -d --name mongodb -p 27017:27017 mongodb
+docker run -d --name mongodb3.6 -p 27017:27017 mongodb3.6
 ```
-to stop running use container id which can be found via `docker ps`:
+to stop running container:
 ```
-docker stop mongodb
+docker stop mongodb3.6
 ```
 to remove container
 ```
-docker rm mongodb
+docker rm mongodb3.6
 ```
