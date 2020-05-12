@@ -1,4 +1,4 @@
-# docker nodejs app
+# Docker mongodb3.6
 
 Using docker to create an image and container for the mongodb to run on.
 
@@ -11,7 +11,7 @@ Docker is a tool designed to make it easier to create, deploy, and run applicati
 A dockerfile is a script with various commands and arguements listed successively to automatically perform actions on a base image to create a new one. In this case we used an existing mongo image with version 3.6.18 on an xenial base image and replace the mongod.conf.
 
 
-## running the app
+## Running the app
 
 to build an image:
 ```
