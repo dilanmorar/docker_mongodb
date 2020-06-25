@@ -16,3 +16,5 @@ EXPOSE 27017
 # RUN systemctl enable mongod
 
 CMD ["mongod"]
+
+ 
